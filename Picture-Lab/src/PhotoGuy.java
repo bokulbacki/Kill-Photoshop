@@ -3,6 +3,7 @@ public class PhotoGuy
 	{
 		static int num=0;
 		public static Picture image;
+		public static Picture dunham;
 		
 		public static void main(String[] args)
 		{
@@ -38,6 +39,7 @@ public class PhotoGuy
 			System.out.println("18) A temple.");
 			System.out.println("19) Patrick Rooney.");
 			System.out.println("20) Our personal favorite... shrek.");
+			System.out.println("21) Dunham's special edit.");
 			
 			int pic = userImage.nextInt();
 			switch (pic)
@@ -101,6 +103,12 @@ public class PhotoGuy
 				
 				case 20: image = new Picture ("shrekboiii.jpg");
 				break;
+				
+				case 21: image = new Picture ("dunhamPerry.jpg");
+				//dunham = new Picture ("dunhamPerry.jpg");
+				//System.out.println("With this selection you must choose option 17 next.");
+				//dunham.explore();
+				break;
 			}
 			
 			
@@ -126,6 +134,7 @@ public class PhotoGuy
 			System.out.println("14) Keep only red.");
 			System.out.println("15) Chrsitmas colors filter.");
 			System.out.println("16) Copy");
+			//System.out.println("17) Dunham's special edit.");
 			int tool = userTool.nextInt();
 			switch (tool)
 			{
@@ -177,8 +186,8 @@ public class PhotoGuy
 				case 16: PictureTester.testCopy();
 				break;
 				
-				case 17: 
-				break;
+				//case 17: PictureTester.testDunham();
+				//break;
 				
 				case 18: 
 				break;

@@ -132,6 +132,12 @@ public class PictureTester
 	  PhotoGuy.image.explore();
   }
   
+  public static void testDunham()
+  {
+  PhotoGuy.image.explore();
+  PhotoGuy.dunham.explore();
+  }
+  
   /** Method to test mirrorTemple */
   public static void testMirrorTemple()
   {
